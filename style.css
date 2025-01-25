@@ -1,0 +1,136 @@
+.tajawal-extralight {
+  font-family: "Tajawal", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tajawal-light {
+  font-family: "Tajawal", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tajawal-regular {
+  font-family: "Tajawal", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tajawal-medium {
+  font-family: "Tajawal", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tajawal-bold {
+  font-family: "Tajawal", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tajawal-extrabold {
+  font-family: "Tajawal", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tajawal-black {
+  font-family: "Tajawal", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+* {
+  font-family: "Tajawal", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+li {
+  padding-right: 50px;
+}
+nav img {
+  width: 100px;
+  display: inline-block;
+}
+#signbutt {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border: 0px;
+  border-radius: 15%;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+.hero-container img {
+  width: 400px;
+}
+.hero-para {
+  padding: 25px;
+}
+.hero-para h2 {
+  text-align: center;
+  font-size: 50px;
+  color: green;
+}
+.hero-para p {
+  text-align: right;
+  font-size: 20px;
+  max-width: 350px;
+}
+#whatweoffer h3 {
+  margin-top: 100px;
+  text-align: center;
+  color: green;
+  font-size: 40px;
+}
+.whatweoffer-container {
+    margin-top: 50px;
+    display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.whatweoffer-container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.whatweoffer-container h4 {
+  font-weight: 600;
+}
+.whatweoffer-container p {
+  max-width: 200px;
+}
+#thestagesinsidetheplatform{
+    max-width: 80%;
+    justify-self: center;
+    text-align: center;
+}
+.thestages-container{
+    margin-top: 50px;
+    display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.thestages-container img {
+    width: 200px;
+}
